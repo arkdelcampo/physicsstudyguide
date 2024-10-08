@@ -1,0 +1,421 @@
+html {
+  background-color: rgb(53, 53, 53);
+}
+
+body {
+  margin: 20px auto;
+  width: 800px;
+  background: rgb(117, 117, 117);
+  padding: 40px;
+  border-radius: 25px;
+  box-shadow: rgb(82, 82, 82) 0px 15px;
+  border: 8px solid rgb(78, 78, 78);
+}
+
+h1,
+h2,
+p,
+li {
+  font-family: "Overpass";
+}
+
+.header {
+  text-align: center;
+  background: rgb(177, 177, 177);
+  padding: 40px;
+  margin-bottom: 30px;
+  border-radius: 25px;
+  box-shadow: rgb(94, 94, 94) 0px 8px;
+  border: 6px solid rgb(94, 94, 94);
+}
+
+.header > h1 {
+  font-size: 60px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+li {
+  list-style-position: inside;
+  text-align: left;
+}
+
+span {
+  font-weight: bold;
+}
+
+/* BACK BUTTON */
+
+.backbutton {
+  width: 300px;
+  height: 50px;
+  padding: 10px;
+  margin: 30px 0px 0px 250px;
+  background-color: rgb(243, 243, 243);
+  border-radius: 15px;
+  box-shadow: rgb(136, 136, 136) 0px 6px;
+  border: 4px solid rgb(136, 136, 136);
+  transition: width 0.5s, height 0.5s, margin 0.5s, font-size 0.5s, padding 0.5s;
+  font-size: 20px;
+}
+
+.backbutton > a {
+  font-family: "Overpass";
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.backbutton:hover {
+  width: 320px;
+  height: 60px;
+  padding: 12px;
+  transition: width 0.5s, height 0.5s, margin 0.5s, font-size 0.5s, padding 0.5s;
+  margin: 30px 0px 0px 240px;
+  font-size: 24px;
+}
+
+table {
+  width: 800px;
+}
+
+th {
+  background: rgb(177, 177, 177);
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: rgb(94, 94, 94) 0px 8px;
+  border: 6px solid rgb(94, 94, 94);
+}
+
+th > input {
+  width: 600px;
+  height: 25px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.maintd > p {
+  padding-top: 10px;
+  background-color: rgb(94, 94, 94);
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 15px;
+  letter-spacing: 2px;
+  border-radius: 12px;
+}
+
+#velocitytext {
+  color: rgb(161, 233, 255);
+}
+
+#worktext {
+  color: rgb(255, 161, 161);
+}
+
+#energytext {
+  color: rgb(255, 242, 169);
+}
+
+.maintd > div {
+  text-align: center;
+  background: rgb(177, 177, 177);
+  width: 100px;
+  height: 20px;
+  margin-top: 20px;
+  padding: 150px 75px;
+  border-radius: 15px;
+  box-shadow: rgb(94, 94, 94) 0px 8px;
+  border: 6px solid rgb(94, 94, 94);
+  transition: width 0.5s, height 0.5s;
+}
+
+.maintd > div:hover {
+  width: 120px;
+  height: 40px;
+  transition: width 0.5s, height 0.5s;
+}
+
+img {
+  width: 250px;
+  height: 320px;
+  border-radius: 10px;
+  opacity: 1;
+  transition: width 0.4s, height 0.4s;
+  margin-left: -75px;
+  margin-top: -150px;
+}
+
+img:hover {
+  width: 270px;
+  height: 340px;
+  opacity: 0.7;
+  transition: width 0.4s, height 0.4s;
+}
+
+/* VELOCITY ELEMENTS */
+
+.velocityheader {
+  text-align: center;
+  background: rgb(213, 238, 255);
+  padding: 20px 28px 0px 40px;
+  margin: 0px 0px 30px 0px;
+  border-radius: 25px;
+  box-shadow: rgb(156, 171, 180) 0px 8px;
+  border: 6px solid rgb(156, 171, 180);
+  font-size: 100px;
+  color: rgb(54, 62, 66);
+  letter-spacing: 20px;
+}
+
+.velocitytd1 {
+  text-align: center;
+  background: rgb(161, 233, 255);
+  width: 300px;
+  border-radius: 15px;
+  box-shadow: rgb(117, 171, 187) 0px 8px;
+  border: 6px solid rgb(117, 171, 187);
+}
+
+.velocitytd1 > div > h2 {
+  font-size: 30px;
+}
+
+.velocitytd1 > div > p {
+  font-size: 70px;
+  margin-top: -40px;
+  margin-bottom: 2px;
+}
+
+.velocityterms {
+  text-align: center;
+  background: rgb(161, 233, 255);
+  width: 300px;
+  margin-top: 20px;
+  border-radius: 15px;
+  box-shadow: rgb(117, 171, 187) 0px 8px;
+  border: 6px solid rgb(117, 171, 187);
+}
+
+.velocityterms > div > p {
+  font-size: 20px;
+  padding: 0px 30px;
+}
+
+.velocityterms > div > h2 {
+  font-size: 40px;
+  margin-bottom: -10px;
+}
+
+.velocityterms > div > ul > li {
+  margin-left: 45px;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.velocityterms > div > ul {
+  margin-bottom: 30px;
+}
+
+.velocityunits {
+  text-align: center;
+  background: rgb(161, 233, 255);
+  width: 300px;
+  margin-top: 20px;
+  border-radius: 15px;
+  box-shadow: rgb(117, 171, 187) 0px 8px;
+  border: 6px solid rgb(117, 171, 187);
+}
+
+.velocityunits > div > h2 {
+  font-size: 40px;
+}
+
+.velocityunits > div > ul > li {
+  margin-left: 25px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.velocityunits > div > ul {
+  margin-bottom: 25px;
+  margin-top: -32px;
+}
+
+/* WORK ELEMENTS */
+
+.workheader {
+  text-align: center;
+  background: rgb(255, 213, 213);
+  padding: 20px 28px 0px 40px;
+  margin: 0px 0px 30px 0px;
+  border-radius: 25px;
+  box-shadow: rgb(180, 156, 156) 0px 8px;
+  border: 6px solid rgb(180, 156, 156);
+  font-size: 100px;
+  color: rgb(66, 54, 54);
+  letter-spacing: 20px;
+}
+
+.worktd1 {
+  text-align: center;
+  background: rgb(255, 161, 161);
+  width: 300px;
+  border-radius: 15px;
+  box-shadow: rgb(187, 117, 117) 0px 8px;
+  border: 6px solid rgb(187, 117, 117);
+}
+
+.worktd1 > div > h2 {
+  font-size: 30px;
+  margin-top: 25px;
+}
+
+.worktd1 > div > p {
+  font-size: 70px;
+  margin-top: -40px;
+  margin-bottom: 2px;
+}
+
+.workterms {
+  text-align: center;
+  background: rgb(255, 161, 161);
+  width: 300px;
+  margin-top: 20px;
+  border-radius: 15px;
+  box-shadow: rgb(187, 117, 117) 0px 8px;
+  border: 6px solid rgb(187, 117, 117);
+}
+
+.workterms > div > p {
+  font-size: 20px;
+  padding: 0px 30px;
+}
+
+.workterms > div > h2 {
+  font-size: 40px;
+  margin-bottom: -10px;
+}
+
+.workterms > div > ul > li {
+  margin-left: 22px;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.workterms > div > ul {
+  margin-bottom: 30px;
+}
+
+.workunits {
+  text-align: center;
+  background: rgb(255, 161, 161);
+  width: 300px;
+  margin-top: 20px;
+  border-radius: 15px;
+  box-shadow: rgb(187, 117, 117) 0px 8px;
+  border: 6px solid rgb(187, 117, 117);
+}
+
+.workunits > div > h2 {
+  font-size: 40px;
+}
+
+.workunits > div > ul > li {
+  margin-left: 20px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.workunits > div > ul {
+  margin-bottom: 25px;
+  margin-top: -32px;
+}
+
+/* ENERGY ELEMENTS */
+
+.energyheader {
+  text-align: center;
+  background: rgb(255, 242, 169);
+  padding: 20px 28px 0px 40px;
+  margin: 0px 0px 30px 0px;
+  border-radius: 25px;
+  box-shadow: rgb(192, 183, 129) 0px 8px;
+  border: 6px solid rgb(192, 183, 129);
+  font-size: 100px;
+  color: rgb(70, 66, 46);
+  letter-spacing: 20px;
+}
+
+.energytd {
+  text-align: center;
+  background: rgb(255, 242, 169);
+  border-radius: 15px;
+  box-shadow: rgb(192, 183, 129) 0px 8px;
+  border: 6px solid rgb(192, 183, 129);
+}
+
+.energytd > div > h2 {
+  font-size: 25px;
+  margin-top: 25px;
+}
+
+.energytd > div > p {
+  font-size: 45px;
+  margin-top: -25px;
+  margin-bottom: 20px;
+}
+
+.energyterms {
+  text-align: center;
+  background: rgb(255, 242, 169);
+  width: 300px;
+  margin-top: 20px;
+  border-radius: 15px;
+  box-shadow: rgb(192, 183, 129) 0px 8px;
+  border: 6px solid rgb(192, 183, 129);
+}
+
+.energyterms > div > p {
+  font-size: 20px;
+  padding: 0px 30px;
+}
+
+.energyterms > div > h2 {
+  font-size: 40px;
+}
+
+.energyterms > div > ul > li {
+  margin-left: 45px;
+  font-size: 20px;
+}
+
+.energyterms > div > ul {
+  margin: 10px 0px 30px 0px;
+}
+
+.energyunits {
+  text-align: center;
+  background: rgb(255, 242, 169);
+  border-radius: 15px;
+  box-shadow: rgb(192, 183, 129) 0px 8px;
+  border: 6px solid rgb(192, 183, 129);
+  width: 300px;
+}
+
+.energyunits > div > h2 {
+  font-size: 40px;
+  margin-top: 15px;
+}
+
+.energyunits > div > ul > li {
+  margin-left: -10px;
+  font-size: 20px;
+}
+
+.energyunits > div > ul {
+  margin-bottom: 15px;
+  margin-top: -32px;
+}
